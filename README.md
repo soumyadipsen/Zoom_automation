@@ -3,7 +3,7 @@ A python script that automatically joins a zoom meeting based on your timetable.
 
 ## What does it do?
 It performs the following processes:
-1. Checks the "meetingschedule.csv" file to look for meetings that are going to start.
+1. It checks the "meetingschedule.csv" file to look for meetings that are going to start.
 2. As soon as the current time matches any meeting time it opens the Zoom Desktop application.
 3. Navigates the cursor automatically to various steps to join the meeting.
 4. The meeting ID and passcode are extracted from "meetingschedule.csv" and entered into the Zoom app automatically.
